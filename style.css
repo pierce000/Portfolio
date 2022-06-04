@@ -445,7 +445,7 @@ background: none;
         left: 0%;
     }
     .project-info{
-        margin: 30px;
+        margin-top: 80px;
     }
    .project-info2{
         height: 100%;
@@ -527,11 +527,11 @@ background: none;
         padding-top: 100px;
     }
     .project-item{
-        height: 600px;
+        height: 400px;
         width: 100%;
     }
     .project-info{
-        margin-top: 50%;
+        margin-top: 40%;
     }
     .container2{
         justify-content: center;
@@ -577,5 +577,35 @@ background: none;
         gap: 7px;
     }
 }
-
+@media screen and (max-width : 370px){
+    .project-item{
+        height: 500px;
+        width: 100%;
+    }
+    .project-info{
+        margin-top: 50%;
+    }
+    #presentation h1{
+        font-size: 30px;
+    }
+    .project-heading{
+        font-size: 20px;
+        width: 150px;
+    }
+    .project-card{
+        height: 550px;
+        width: 300px;
+    }
+    .project-title{
+        font-size: 30px;
+    }
+    .buddy{
+        height: 90%;
+        width: 100%;
+    }
+    .pnd{
+        padding-top:10px;
+        gap: 7px;
+    }
+}
 
